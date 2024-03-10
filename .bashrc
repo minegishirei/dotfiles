@@ -9,3 +9,5 @@ source /code/personal.sh #need comment
 eval $(thefuck --alias) #need comment
 alias ls="exa" #need comment
 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/bundle/vim-code-dark.git
