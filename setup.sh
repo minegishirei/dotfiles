@@ -1,6 +1,7 @@
 #!/bin/bash
 DOT_FILES=(.vimrc .bashrc)
 
+rm -r $HOME/backup_dotfiles
 mkdir $HOME/backup_dotfiles
 for file in ${DOT_FILES[@]}
 do
